@@ -3,9 +3,9 @@ name: Wheels
 on:
   push:
     branches:
-      - arm64-runner
       - master
       - v[0-9]+.[0-9]+.x
+      - arm64-runner
     tags:
       - v*
 
